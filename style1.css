@@ -1,0 +1,79 @@
+.topo {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(19, 19, 19);
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 25vh auto; 
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px; 
+    color: white;
+}
+
+.conteudo h2 {
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 3vh;
+}
+
+.links {
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: #1a1a1a;
+}
+
+.links a {
+    color: rgb(197, 197, 197);
+    margin-bottom: 8px;
+}
+
+.links a:hover {
+    color: blue;
+}
+
+.links h2 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    border-left: 3px solid rgb(0, 4, 253);
+    padding-left: 10px;
+}
+
+
