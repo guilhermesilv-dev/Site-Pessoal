@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Proxima Nova Oficial';
+    src: url(fonts/ProximaNova-Bold.ttf) format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    border: 100vh black;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+.bugatti {
+    width: 99.2vw;
+    height: 50vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.lambo {
+    width: 500px;
+    height: 500px;
+    left: 15%;
+    position: absolute;
+    padding: 50px;
+
+    transition: transform 0.3s ease;
+}
+
+.lambo:hover {
+    transform: scale(1.1);
+}
+
+.card1 {
+  width: 100%;             
+  height: 600px;           
+  background-color: rgb(48, 48, 48); 
+  
+  display: flex;           
+  justify-content: center; 
+  align-items: center;     
+  gap: 40px;               
+  padding: 50px;         
+  box-sizing: border-box;  
+}
+    
+
+.texto-lambo {
+    color: white;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    font-family: 'Proxima Nova Oficial', sans-serif;
+
+    filter: blur(4px);
+    opacity: 0.4;
+    transition: all 0.4s ease;
+}
+
+.texto-lambo:hover {
+    filter: blur(0);
+    opacity: 1;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    position: relative;
+}
+
+.porsche {
+    width: 99.2vw;
+}
+
+.titulo-porsche {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Proxima Nova Oficial', sans-serif;
+    font-weight: bold;
+}
+
+.texto-porsche {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 120px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Proxima Nova Oficial', sans-serif;
+}
+
+.card2 {
+    display: inline-block;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    font-family: 'Proima Nova Origina', sans-serif;
+    font-weight: bold;
+}
+
